@@ -1,0 +1,39 @@
+# GET todos los hábitos
+GET http://localhost:8080/api/habits
+Accept: application/json
+
+###
+
+# POST nuevo hábito
+POST http://localhost:8080/api/habits
+Content-Type: application/json
+
+{
+  "name": "Correr 30 min",
+  "description": "Ejercicio diario",
+  "startDate": "2025-10-21",
+  "completed": false
+}
+
+###
+
+# GET hábito por ID
+GET http://localhost:8080/api/habits/1
+
+###
+
+# PUT actualizar hábito
+PUT http://localhost:8080/api/habits/1
+Content-Type: application/json
+
+{
+  "name": "Correr 45 min",
+  "description": "Ejercicio diario más largo",
+  "startDate": "2025-10-21",
+  "completed": true
+}
+
+###
+
+# DELETE hábito
+DELETE http://localhost:8080/api/habits/1
