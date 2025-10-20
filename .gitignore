@@ -1,0 +1,27 @@
+
+# Node / frontend
+/frontend/node_modules
+/frontend/dist
+/frontend/build
+
+# Java / backend
+/backend/target
+/backend/.idea
+/backend/.classpath
+/backend/.project
+/backend/.settings
+/backend/.vscode
+
+# Python / ml
+/ml/__pycache__/
+/ml/env/
+/ml/venv/
+/ml/.env
+
+# Logs / envs / misc
+*.log
+.env
+.DS_Store
+.vscode/
+.idea/
+
